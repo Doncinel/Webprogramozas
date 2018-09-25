@@ -3,3 +3,16 @@ h1 {
   background-color: indianred;
   color: #ffffff;
 }
+
+p, h1 {
+  color: coral;
+}
+
+.elso {
+  color: aqua;
+}
+
+#lorem {
+  font-size: 2em;
+  color: #333;
+}
