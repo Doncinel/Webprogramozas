@@ -5,3 +5,63 @@
   margin: 0 auto;
   box-shadow: 15px 15px 10px gray;
 }
+
+
+#first-row {
+  height: 75%;
+  width: 100%;
+}
+
+#big-rectangle {
+  height: 100%;
+  width:  75%;
+}
+
+.right {
+  float: right;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#first-column {
+  height: 100%;
+  width: 22%
+}
+
+#second-row {
+  height: 45%;
+  width: 100%;
+}
+
+#third-row {
+  height: 5%;
+  width: 100%;
+}
+
+#fourth-row {
+  height: 50%;
+  width: 100°%;
+}
+
+.left {
+  float: left;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
