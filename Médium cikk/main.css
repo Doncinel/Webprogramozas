@@ -30,3 +30,26 @@ article {
   padding: 10px;
   border: 2px solid red;
 }
+
+p {
+  color: rgba(0, 0, 0, .8);
+  font-family: Georgia, Cambri, "Times New Roman", Times, serif;
+  font-size: 21px;
+  letter-spacing: -.003em;
+  line-height: 1.58;
+}
+
+p:hover {
+  background-color: yellow
+}
+
+a {
+  color: rgba(0, 0, 0, .8);
+}
+
+
+a:hover {
+  color: rgba(153, 153, 153, 1);
+}
+
+
