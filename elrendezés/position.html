@@ -4,11 +4,54 @@
     <title>Pozícionálás</title>
     <meta charset="utf-8">
     <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        right: 0;
+      }
+
+      #box-01 {
+        background-color: red;
+        z-index: 4;
+      }
+
+      #box-02 {
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+       /* position: relative;
+        top: -10px;
+        bottom: 10px;
+        left: 10px;*/
+        z-index: 3;
+      }
+      #box-03 {
+        background-color: yellowgreen;
+      }
+
+      #box-04 {
+        background-color: palevioletred;
+      }
+
     </style>
   </head>
 
   <body>
+    <div id="box-01" class="box">#box-01</div>
+    <div id="box-02" class="box">#box-02</div>
+    <div id="box-03" class="box">#box-03</div>
+    <div id="box-04" class="box">#box-04</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia justo magna, venenatis maximus arcu euismod at. Ut vestibulum at felis in tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed efficitur dui sit amet sem dignissim, eget pulvinar tellus rhoncus. Duis tempor luctus felis, et rutrum tellus gravida volutpat. Donec vitae egestas nisi, ut feugiat est. In nec volutpat ex. Donec viverra malesuada turpis, id eleifend dui iaculis sed. Integer vel odio mi. Etiam faucibus ante at neque mollis consequat. Suspendisse a vestibulum eros. Quisque imperdiet arcu augue, ac ornare orci porttitor quis. Mauris eget malesuada risus, ut facilisis lorem. Etiam maximus ac elit at placerat. In luctus bibendum condimentum. Phasellus sit amet vulputate arcu.
 
+Maecenas efficitur nisi nisi, at rutrum justo faucibus eget. Maecenas felis mauris, finibus nec laoreet a, rhoncus at odio. Praesent vestibulum risus et nisl vehicula, eu consectetur felis fermentum. Donec laoreet luctus nisi eget tincidunt. Quisque suscipit eget ipsum ut auctor. Donec pulvinar rutrum nisl, non semper eros fringilla a. Fusce et ornare odio, a posuere enim. Mauris rhoncus, tortor ut congue lacinia, massa ligula auctor ligula, viverra convallis lacus metus at libero. Pellentesque eu enim dapibus, finibus erat non, posuere eros. Quisque ullamcorper elit quam, sit amet efficitur risus porta quis. Ut tellus ante, tincidunt a consectetur in, ultrices finibus ligula. Duis vitae eros tortor. Nullam molestie, dolor eu hendrerit egestas, nisl ante sollicitudin mauris, ut tristique sapien nibh eu purus.
+
+Nulla facilisi. Aenean lorem neque, faucibus vitae cursus nec, feugiat nec velit. Pellentesque mauris nisi, suscipit in mauris vitae, porta tristique nisl. Aliquam et lectus malesuada, volutpat metus vel, posuere mi. Nunc ullamcorper tincidunt diam eget ornare. Nam congue, nibh nec mollis efficitur, magna augue pretium elit, ut iaculis leo elit vel diam. Sed enim neque, aliquet eget nunc lacinia, rhoncus ultricies sem.
+
+In ullamcorper arcu ac varius pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit felis quis ligula ornare, nec gravida turpis viverra. Aliquam sodales odio justo, sit amet porta augue tristique at. Phasellus nibh ipsum, congue eu facilisis sit amet, pretium vitae ipsum. Aliquam erat volutpat. Nam eu tempus eros. Duis tempor lacus nisl. Donec justo risus, ullamcorper nec egestas ut, convallis et lectus. Sed suscipit fringilla ex sed tempus. Etiam semper justo vitae metus sollicitudin tempor. Suspendisse nec tincidunt neque. Donec cursus nisi et lectus vulputate vulputate. Proin sapien sapien, dapibus ut sollicitudin quis, vehicula et neque. Suspendisse fermentum elit in ligula malesuada condimentum. Proin sed congue nibh.
+
+Etiam pretium, quam vel ultricies finibus, odio mi placerat libero, quis facilisis nisi est a metus. Sed aliquam velit lacus, at ultricies urna ultricies sed. Sed facilisis at velit id tincidunt. Donec tempor convallis interdum. Etiam dui dolor, aliquam eu eleifend sed, euismod sed purus. Nulla ipsum sem, dignissim ut aliquet sed, dapibus vel est. Cras felis felis, maximus at libero non, scelerisque faucibus ligula.</p>
   </body>
 
 </html>
