@@ -1,0 +1,41 @@
+body {
+  background-color: #902500;
+}
+
+.container {
+  width: 500px;
+  height: calc(100vh - 40px);
+  margin: 20px auto;
+  background-color: #00339f;
+  position: relative;
+}
+
+#box-01 {
+  background-color: #00a656;
+  left: 0;
+  right: 0;
+  height: 120px;
+}
+#box-02 {
+  background-color: #ffb100;
+  top: 120px;
+  right: 0;
+  width: 75%;
+  height: 150px;
+}
+#box-03 {
+  background-color: #00fc83;
+  top: 120px;
+  left: 0;
+  width: 25%;
+  height: 125px;
+}
+#box-04 {
+  background-color: #0e41fb;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+}
+.box {
+  position: absolute;
+}
