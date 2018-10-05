@@ -14,21 +14,21 @@ body {
   background-color: #00a656;
   left: 0;
   right: 0;
-  height: 120px;
+  height: 23.1%;
 }
 #box-02 {
   background-color: #ffb100;
-  top: 120px;
+  top: 23.1%;
   right: 0;
   width: 75%;
-  height: 150px;
+  height: 54%;
 }
 #box-03 {
   background-color: #00fc83;
-  top: 120px;
+  top: 23.1%;
   left: 0;
   width: 25%;
-  height: 125px;
+  height: 40%;
 }
 #box-04 {
   background-color: #0e41fb;
