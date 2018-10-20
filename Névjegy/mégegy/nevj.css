@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  Margin: 0;
+  box-sizing: border-box;
+  font-size: 100%
+}
+
+.full-card {
+  background-color: #444;
+  width: 480px;
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 0, 0, .5) 15px 20px 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heady, .content {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
