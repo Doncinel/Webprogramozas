@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+
+.btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+
+.two-button {
+  width: 200px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid black
+}
+
+.two-button h2 {
+  text-align: center;
+  padding: 5px;
+}
+
+
+.gomb {
+  margin: 0 13px;
+  border-radius: 0;
+}
+
+.gomb:hover {
+  color: #fff;
+  background-color: #333;
+  transition: background-color .2s;
+}
+
+.top-nav ul {
+  background-color: #eee;
+  text-align: center;
+}
+
+.top-nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  line-height: 4rem;
+  height: 4rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  display: block;
+
+}
+
+.top-nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+.top-nav a.active {
+  background-color: #c74f78;
+  color: #eee
+}
+
+@media (min-width: 600px) {
+  .top-nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+    margin-right: .8em
+  }
+
+  .top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+.buttons {
+  margin-top: 4rem;
+}
+
+/* --- footer --- */
+
+footer {
+  background-color: #333;
+  height: 8rem;
+  text-align: center;
+  display: table;
+  width: 100vw;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  font-size: .85rem;
+}
+
+footer small {
+  color: #ccc;
+}
+
+.footer-nav {
+  text-decoration: none;
+  color: #c74f78;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+
+}

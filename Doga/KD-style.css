@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Space Mono';
+}
+
+nav {
+  background-color: #000;
+  height: 50px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+a {
+  float: right;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff
+}
+
+a:hover {
+  color: rgba(255, 255, 255, .7);
+  transition: color .15s ease-in-out;
+}
+
+.home {
+  float: left;
+}
+
+p {
+  margin-bottom: 1rem
+}
+
+section {
+  text-align: left;
+  margin-top: 100px;
+  padding: 0 20%
+}
+
+.sign-up {
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.sign-up:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color .15s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: auto;
+    width: 100vw
+
+  }
+
+  nav a {
+    float: left;
+    width: 90vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  section {
+    margin-top: 25vh;
+    padding: 20px;
+    text-align: left;
+  }
+}
+
+
+
