@@ -12,48 +12,65 @@
 </head>
 
 <body>
-  <div class="jumbotron">
+  <div class="jumbotron container">
     <div class="row">
-     <h1>Postafiók adatok</h1>
-     <h2>(A *-gal jelölt mezők kitöltése kötelező)</h2>
-      <div class="col-12 col-md6">
-        <form action="">
+
+      <div class="col-md-12 col-lg-6">
+        <h1>Postafiók adatok</h1>
+        <h2>(A *-gal jelölt mezők kitöltése kötelező)</h2>
+        <form>
           <div class="row">
             <div class="col">
-              <label for="exampleFormControlInput1">*Név</label>
-              <input type="text" class="form-control" placeholder="Vezetéknév">
+              <label for="exampleFormControlInput1"><strong>*Név</strong></label>
+              <input type="text" class="form-control" placeholder="Vezetéknév" id="exampleFormControlInput1">
+              <input type="text" class="form-control" placeholder="Keresztnév" >
             </div>
-            <div class="col">
-              <label for="exampleFormControlInput1"></label>
-              <input type="text" class="form-control" placeholder="Keresztnév">
-            </div>
+
+
           </div>
           <div>
-            <label for="emailID">*Postafiók azonosító</label>
+            <label for="emailID"><strong>*Postafiók azonosító</strong></label>
             <input type="email" id="emailID" class="form-control" placeholder="@freemail.hu">
           </div>
           <div>
-            <label for="psw">*Jelszó</label>
+            <label for="psw"><strong>*Jelszó</strong></label>
             <input type="password" id="psw" class="form-control">
-            <label for="pswd">*Jelszó megerősítése</label>
+            <label for="pswd"><strong>*Jelszó megerősítése</strong></label>
             <input type="password" id="pswd" class="form-control">
           </div>
         </form>
       </div>
-
-      <div class="col-12 col-md6">
-       <h1>Fiók biztonsági beállítások</h1>
-        <form action="">
+      <div class="col-md-12 col-lg-6">
+        <h1>Fiók biztonsági beállítások</h1>
+        <form>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1"><strong>*Biztonsági kérdés</strong>
+            </label>
+              <p>Itt megadhatsz egy kérdést, amelyet a rendszer feltesz majd neked, ha elfelejted a jelszavadat. Ha a helyes, általad beállított választ adod meg, akkor módosítani tudod majd a jelszavadat. Olyan kérdést adj meg, amire csak te tudhatod a választ! Olyan választ adj meg, amit nem felejtesz el!</p>
+            <select class="form-control" id="exampleFormControlTextarea1">
+              <option>Ki volt a gyerekkori példaképed?</option>
+              <option>Mi a kedvenc (rajz)filmed betétdalának refrénje?</option>
+              <option>Hány órakor születtél?</option>
+              <option>Mikor született a legjobb barátod?</option>
+              <option>Mi a kedvenc időtöltésed napos időben?</option>
+            </select>
+            <label for="exampleFormControlTextarea"></label>
+            <input type="text" id="exampleFormControlTextarea" class="form-control" placeholder="Biztonsági válasz">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1"><strong>*Másodlagos e-mail cím</strong>
+            </label>
+              <p>Ha elfelejtenéd a jelszavad, erre a megadott másodlagos e-mail címre elküldünk egy üzenetet, mellyel lehetőség lesz jelszavad módosítására.</p>
+            <input type="email" class="form-control" id="exampleInputEmail1">
           </div>
         </form>
 
       </div>
     </div>
     <hr>
-    <div class="row"></div>
+    <div class="row">
+      <button type="button" class="btn btn-lg btn-secondary">Következő ></button>
+    </div>
   </div>
 
   <!-- Optional JavaScript -->
